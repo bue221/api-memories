@@ -22,3 +22,8 @@ export const postPost = async (req, res) => {
     res.status(409).json({ message: err.message });
   }
 };
+
+export const putPost = async (req, res)=> {
+  const { id: _id } = req.params;
+
+}

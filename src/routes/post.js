@@ -9,6 +9,6 @@ function post(app) {
   //methods
   router.get("/", (req, res) => getPosts(req, res));
   router.post("/", (req, res) => postPost(req, res));
-  //router.get("/", (req, res) => getPost(req, res));
+  //router.put("/:id", (req, res) => putPost(req, res));
 }
 export default post;
